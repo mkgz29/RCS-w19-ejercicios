@@ -1,16 +1,15 @@
 # CLASE JS - OPERADORES Y TIPOS DE DATOS
 
+/\*
 
-/*
-* Tipos de datos
-*
-* Tipado dinamico: pueden en tiempos de
-* ejecucion.
-* Es decir, que los puedo una variable que
-* tenia un tipo de dato string a otro por
-* ejemplo entero
-*
-**/
+- Tipos de datos
+-
+- Tipado dinamico: pueden en tiempos de
+- ejecucion.
+- Es decir, que los puedo una variable que
+- tenia un tipo de dato string a otro por
+- ejemplo entero
+- \*\*/
 
 // Cadena de caracteres (string)
 // Todo entre comillas es string
@@ -70,33 +69,19 @@ console.log(alumnos[0])
 typeof alumnos
 
 let persona = {
-  nombre: 'gonzalo',
-  edad: 29,
-  dni: '423123410',
-  user_active: true,
-  es_profe: true,
-  roles: ['profe', 'empleado', 'dev']
+nombre: 'gonzalo',
+edad: 29,
+dni: '423123410',
+user_active: true,
+es_profe: true,
+roles: ['profe', 'empleado', 'dev']
 }
 
 persona['nombre']
 persona['roles']
 persona.nombre
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //Operadores
-
 
 // Asignacion
 
@@ -107,7 +92,7 @@ edad2 = 30
 edad2 += 1
 edad2 -= 2
 edad2 /= 2
-edad2 *= 5
+edad2 \*= 5
 
 // Aritmeticos
 
@@ -119,7 +104,7 @@ let resta = 20 - 32
 
 resta
 
-let multiplicacion = 20 * 12
+let multiplicacion = 20 \* 12
 
 multiplicacion
 
@@ -130,6 +115,3 @@ division
 let resto = 145 % 7
 
 resto
-
-
-

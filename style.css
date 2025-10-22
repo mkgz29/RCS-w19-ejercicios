@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 500px;
+
+}
+
+#bienvenida,#rechazado,#saludo{
+    font-size: x-large;
+    color: aliceblue;
+}
+
+body{
+    background-image: url(./img/bgc.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p,h1,h2,label{
+    color: aliceblue;
+}
+
+.container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    margin: 10px;
+}
+
+.group {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 250px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 250px;
+}
